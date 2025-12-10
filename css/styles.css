@@ -91,32 +91,22 @@ main{
     height: auto;
     right: 80px;
     margin-top: 20px;
+    filter: invert();
 }
-.notifications button{
-    background-color: rgba(255, 255, 255, 0.5);
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
-    position: relative;
-}
-.notifications button:hover{
-    background-color: rgba(77, 77, 77, 0.7);
-    transform: scale(1.09);
+.notifications:hover{
+    transform: scale(1.2);
     transition: transform 0.1s;
     cursor: pointer;
 }
-.btn{
-    background-color: rgba(255, 255, 255, 0.5);
-    color: rgb(0, 0, 0);
+button{
+    background-color: transparent;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
-.btn:hover{
-    background-color: rgba(77, 77, 77, 0.7);
-    transform: scale(1.05);
-    transition: transform 0.1s;
-    cursor: pointer;
+.btn img{
+    width: 15px;
+    height: 15px;
+    filter: invert(100%);
 }
 footer{
     background-color: rgba(48, 48, 48, 0.418);
