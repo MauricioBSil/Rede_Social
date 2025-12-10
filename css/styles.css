@@ -25,8 +25,9 @@ main{
     background-color: rgba(48, 48, 48, 0.418);
     width: 500px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    height: auto;
 }
 .postagem{
     width: 100%;
@@ -75,7 +76,7 @@ main{
     width: 50px;
     height: 50px;
     position: absolute;
-    right: 20px;
+    right: 0;
 }
 .perfil:hover{
     transform: scale(1.1);
@@ -92,6 +93,7 @@ main{
     right: 80px;
     margin-top: 20px;
     filter: invert();
+    width: 25px;
 }
 .notifications:hover{
     transform: scale(1.2);
@@ -107,6 +109,69 @@ button{
     width: 15px;
     height: 15px;
     filter: invert(100%);
+}
+.btn img:hover{
+    transform: scale(1.2);
+    transition: transform 0.1s;
+}
+.sugestions{
+    width:350px;
+    height: auto;
+    background-color:  rgba(48, 48, 48, 0.418);
+    border-radius: 5px;
+    position: absolute;
+    left: 50px;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 75px;
+}
+.sugestions .card{
+    background-color: rgba(77, 77, 77, 0.7);
+    border-radius: 5px;
+    height: 70px;
+}
+.sugestions .card h3{
+    padding: 10px 0 0 5px;
+}
+.sugestions .card p{
+    padding: 5px;
+}
+.messages{
+    width:350px;
+    height: auto;
+    background-color:  rgba(48, 48, 48, 0.418);
+    border-radius: 5px;
+    position: absolute;
+    right: 100px;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 75px;
+}
+.messages .card{
+    background-color: rgba(77, 77, 77, 0.7);
+    border-radius: 5px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.messages .card h3{
+    padding-top: 15px;
+    padding-left: 60px;
+}
+.messages .card p{
+    padding-left: 60px;
+}
+.perfil-msg{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    position: absolute;
+    padding-left: 5px;
 }
 footer{
     background-color: rgba(48, 48, 48, 0.418);
