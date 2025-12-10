@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    background-color: rgba(48, 48, 48, 0.418);
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+}
+main{
+    margin-top: 20px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post{
+    background-color: rgba(48, 48, 48, 0.418);
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.postagem{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    margin-left: 70px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.menu a:hover{
+    background-color: rgba(77, 77, 77, 0.7);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.1s;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    left: 30px;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: transform 0.1s;
+    cursor: pointer;
+}
+.perfil{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+}
+.perfil:hover{
+    transform: scale(1.1);
+    transition: transform 0.1s;
+    cursor: pointer;
+}
+.notifications{
+    position: absolute;
+    display:flex;
+    text-align: right;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    height: auto;
+    right: 80px;
+    margin-top: 20px;
+}
+.notifications button{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+.notifications button:hover{
+    background-color: rgba(77, 77, 77, 0.7);
+    transform: scale(1.09);
+    transition: transform 0.1s;
+    cursor: pointer;
+}
+.btn{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(77, 77, 77, 0.7);
+    transform: scale(1.05);
+    transition: transform 0.1s;
+    cursor: pointer;
+}
+footer{
+    background-color: rgba(48, 48, 48, 0.418);
+    width: auto;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    position: auto;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+}
